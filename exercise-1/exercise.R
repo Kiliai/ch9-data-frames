@@ -2,7 +2,7 @@
 
 # Create a vector of the number of points the Seahawks scored in the first 4 games
 # of the season (google "Seahawks" for the scores!)
-points <- c(12, 3, 37, 27)
+points <- c(10, 15, 24, 7)
 
 
 # Create a vector of the number of points the Seahwaks have allowed to be scored
@@ -21,10 +21,10 @@ games$diff <- games$points - games$points_allowed
 games$won <- games$diff > 0
 
 # Create a vector of the opponent names corresponding to the games played
-opponents <- c("Dolphins", "Rams", "49ers", "Jets")
+opponents <- c("rams", "stealers", "patriots", "vikings")
 
 # Assign your dataframe rownames of their opponents
 rownames(games) <- opponents
 
 # View your data frame to see how it has changed!
-View(games)
+
